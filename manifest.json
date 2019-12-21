@@ -1,0 +1,12 @@
+{
+    "name": "Hasty Hunter",
+    "manifest_version": 2,
+    "version": "1.0",
+    "author": "Zubeir Mohamed",
+    "description": "Quickly search for anything without opening a new tab at google, bing or duckduckgo",
+    "browser_action": { 
+        "default_icon": "icon.jpg", 
+        "default_title": "Hasty Hunte\nThe Quick Search Helper",
+        "default_popup": "index.html"
+    }
+}
