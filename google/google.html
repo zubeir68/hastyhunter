@@ -12,8 +12,8 @@
 <body>
   <div class="ui three item menu">
     <a class="active item" id="poppins">Google</a>
-    <a class="item" id="poppins">Bing</a>
-    <a class="item" id="poppins">DuckDuckGo</a>
+    <a class="item" id="poppins" href="../bing/bing.html">Bing</a>
+    <a class="item" id="poppins" href="../ddg/ddg.html">DuckDuckGo</a>
   </div>
   <form action="">
     <div class="ui icon fluid input">
@@ -22,27 +22,37 @@
     </div>
   </form>
   <div class="ui basic segment">
-    <div class="ui tiny toggle checkbox">
-      <input type="checkbox" name="public" id="googlecheckbox">
-      <label>Set as Default</label>
-    </div>
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    <div class="ui tiny icon inverted red circular button">
-      <i class="trash icon"></i> Clear history
+    <div class="ui grid">
+      <div class="eight wide column">
+        <div class="ui form">
+          <div class="grouped fields">
+            <label>Set Default Engine</label>
+            <div class="field">
+              <div class="ui radio checkbox">
+                <input type="radio" name="defaultengine" id="google">
+                <label>Google</label>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui radio checkbox">
+                <input type="radio" name="defaultengine" id="bing">
+                <label>Bing</label>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui radio checkbox">
+                <input type="radio" name="defaultengine" id="ddg">
+                <label>DuckDuckGo</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="eight wide column">
+        <div class="ui tiny icon inverted red circular button">
+          <i class="trash icon"></i> Clear history
+        </div>
+      </div>
     </div>
   </div>
 </body>

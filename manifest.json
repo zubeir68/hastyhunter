@@ -7,6 +7,6 @@
     "browser_action": { 
         "default_icon": "icon.jpg", 
         "default_title": "Hasty Hunte\nThe Quick Search Helper",
-        "default_popup": "google/google.html"
+        "default_popup": "index.html"
     }
 }
