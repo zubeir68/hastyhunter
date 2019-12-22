@@ -8,8 +8,7 @@ window.onload =  function () {
     document.getElementById("google").addEventListener("click", setDefault);
     document.getElementById("bing").addEventListener("click", setDefault);
     document.getElementById("ddg").addEventListener("click", setDefault);
-
-
+    document.getElementById("searchfield").addEventListener("keyup", search);
   } else {
     alert("Hasty Hunter - Your Browser does not support Web Storage");
   }
@@ -29,3 +28,16 @@ const setDefault = () => {
   console.log(localStorage.getItem("default"));
   
 }
+
+const search = () => {
+  try {
+    let value = document.getElementById('searchfield').value;
+
+     
+
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+// API KEY : AIzaSyA5tNsIBQQkElo3eq5VyMpljVd0R6gocsk
