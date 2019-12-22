@@ -39,5 +39,3 @@ const search = () => {
     console.error(error);
   }
 }
-
-// API KEY : AIzaSyA5tNsIBQQkElo3eq5VyMpljVd0R6gocsk
